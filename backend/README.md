@@ -1,4 +1,4 @@
-# Rayda Fleet Copilot — Backend
+# Rayda Fleet Copilot 
 
 An agentic AI system that enables IT administrators to interact with device telemetry using natural language. Built with LangGraph, FastAPI, and SQLAlchemy.
 
