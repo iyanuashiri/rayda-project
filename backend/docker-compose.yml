@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persist the SQLite database outside the container
+      - ./telemetry.db:/app/telemetry.db
+      # Mount the dataset for the load script
+      - ./app/core/device-telemetry-dataset.ndjson:/app/app/core/device-telemetry-dataset.ndjson
+    env_file:
+      - ./app/.env
