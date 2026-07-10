@@ -156,7 +156,7 @@ TELEMETRY_SQLITE_FILE_NAME=../telemetry.db
 OPENROUTER_API_KEY=your_openrouter_api_key
 LANGSMITH_API_KEY=your_langsmith_api_key
 LANGSMITH_TRACING=true
-LANGSMITH_PROJECT=rayda-fleet-copilot
+LANGSMITH_PROJECT=rayda-agent
 LANGSMITH_ENDPOINT=https://api.smith.langchain.com
 ```
 
